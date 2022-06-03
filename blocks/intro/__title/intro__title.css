@@ -1,14 +1,13 @@
 .intro__title {
   max-width: 690px;
   max-height: 58px;
-  margin: auto;
+  margin: 0;
   padding: 92px 0 40px;
   color: #FFFFFF;
   font-size: 54px;
   font-family: 'Interregular', sans-serif;
   font-weight: normal;
   line-height: 58px;
-  text-align: center;
   grid-column: 2;
   grid-row: 1;
 }

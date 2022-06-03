@@ -6,9 +6,12 @@
   font-family: 'Interregular', sans-serif;
   font-size: 18px;
   line-height: 163%;
+  padding-bottom: 28;
 }
 
-/* .places__paragraph:nth-child(2) {
-  padding-top: 26px;
+.places__paragraph:last-child {
+  
   color: red;
-} */
+  /* align-self:; */
+
+} 

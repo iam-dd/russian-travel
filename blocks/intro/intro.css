@@ -3,5 +3,6 @@
   display: grid;
   grid-template-columns: 11.5% auto 11.5%;
   grid-template-rows: repeat(3, auto);
+  justify-content: start;
 
 }
