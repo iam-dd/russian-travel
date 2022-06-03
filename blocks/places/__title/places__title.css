@@ -1,0 +1,9 @@
+.places__title {
+  margin: 0;
+  color: #fff;
+  font-family: 'Interregular', sans-serif;
+  font-size: 72px;
+  line-height: 76px;
+  grid-column: 1;
+  grid-row: 1;
+}

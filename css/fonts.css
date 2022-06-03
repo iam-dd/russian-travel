@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Interregular';
+  src: local('Inter'),
+       url('../vendor/fonts/Inter/regular_woff/inter-variablefont_slntwght-webfont.woff2') format('woff2'),
+       url('../vendor/fonts/Inter/regular_woff/inter-variablefont_slntwght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}

@@ -1,0 +1,8 @@
+.lead__image {
+  /* max-width: calc(100% - 23%); */
+  width: 984px;
+  height: 615px;
+  grid-column: 2;
+  grid-row: 3;
+  
+ }

@@ -1,0 +1,21 @@
+.places__link {
+  
+  font-family: 'Interregular', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  color: #fff;
+  align-self: end;
+}
+
+
+
+
+.places__link::before {
+  white-space: pre;
+  content: "URL\0a";
+  font-size: 12;
+  color: #aaa;
+  line-height: 170%;
+  text-decoration: none;
+}

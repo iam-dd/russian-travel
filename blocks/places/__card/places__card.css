@@ -1,0 +1,8 @@
+.places__card {
+  display: grid;
+  grid-template-columns: 460px repeat(2, auto);
+  grid-template-rows: auto 460px;
+  column-gap: 40px;
+  row-gap: 48px;
+  padding-bottom: 80px;
+}
