@@ -1,0 +1,7 @@
+.places__block-paragraph {
+  max-width: 484px;
+  display: flex;
+  flex-direction: column;
+  grid-column: 2;
+  grid-row: 2;
+}

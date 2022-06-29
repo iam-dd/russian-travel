@@ -1,10 +1,12 @@
-.places__title {
-  margin: 0;
-  color: #fff;
+.cover__title {
+  width: 560px;
   font-family: 'Inter', Arial, sans-serif;
   font-size: 72px;
   line-height: 76px;
   font-weight: 900;
-  grid-column: 1;
-  grid-row: 1;
+  color: #fff;
+  text-align: center;
+  margin: 0 0 32px;
+  
+  
 }

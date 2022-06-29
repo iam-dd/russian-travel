@@ -1,0 +1,7 @@
+.footer__navigation-list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}

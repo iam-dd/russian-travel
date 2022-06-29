@@ -1,0 +1,10 @@
+.cover__link-hover {
+  background-color: #2A2C2F;
+  opacity: 0.7;
+  transition: opacity 1s;
+  
+}
+
+.cover__link-hover:hover {
+opacity: 0.3;
+}

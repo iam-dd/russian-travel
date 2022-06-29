@@ -1,0 +1,5 @@
+.intro__content {
+  margin: 92px 148px 0;
+  display: flex;
+  flex-direction: column;
+}

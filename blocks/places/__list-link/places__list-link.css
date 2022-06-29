@@ -1,0 +1,8 @@
+.places__list-link {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  align-self: end;
+  grid-column: 2;
+  grid-row: 1;
+}

@@ -1,17 +1,9 @@
 .places__paragraph {
   margin: 0;
-  grid-column: 2;
-  grid-row: 2;
   color: #fff;
-  font-family: 'Interregular', sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: normal;
   font-size: 18px;
   line-height: 163%;
-  padding-bottom: 28;
+  padding-bottom: 27px;
 }
-
-.places__paragraph:last-child {
-  
-  color: red;
-  /* align-self:; */
-
-} 

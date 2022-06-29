@@ -1,0 +1,8 @@
+.places__content {
+  margin: 85px 0 99px;
+  display: grid;
+  grid-template-columns: 148px auto 148px;
+  grid-template-rows: repeat(5, auto);
+  row-gap: 80px;
+
+}

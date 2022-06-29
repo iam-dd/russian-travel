@@ -1,10 +1,6 @@
 .lead {
   width: 100%;
-  display: grid;
-  grid-template-columns: 11.5% 76% 11.5%;
-  grid-template-rows: repeat(4, auto);
-  /* justify-items: center; */
-  
   
 
+ 
 }
