@@ -1,7 +1,21 @@
 .footer {
-  margin: 92px 48px 24px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  
+  display: grid;
+  grid-template: auto 24px / 48px auto 48px;
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+    grid-template: auto 24px / auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .footer {
+    grid-template: auto auto / auto;
+
+  }
 }

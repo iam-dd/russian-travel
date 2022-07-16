@@ -5,5 +5,19 @@
   font-size: 14px;
   line-height: 16px;
   padding: 0;
-  display: block;
+  margin: 0;
+  grid-row: 1;
+  grid-column: 2;
+  place-self: end;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copy {
+    grid-row: 2;
+    grid-column: 1;
+    place-self: start;
+    padding: 18px 0 24px 16px;
+  }
+  
 }

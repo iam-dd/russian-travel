@@ -1,6 +1,22 @@
 .header {
-  max-width: 1280px;
-  display: flex;
-  padding: 28px 48px 56px;
-  justify-content: space-between;
+  display: grid;
+  grid-template: 28px 52px 56px / 3.75% auto 3.75%;
+}
+
+@media screen and (max-width: 1030px) {
+  .header {
+    grid-template: 28px 52px 56px / 24px auto 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    grid-template: 28px 52px 56px / 24px auto 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    grid-template: 16px 42px 48px / 16px auto 16px;
+  }
 }

@@ -1,9 +1,35 @@
 .places__paragraph {
+  width: 484px;
   margin: 0;
+  padding: 0;
   color: #fff;
   font-family: 'Inter', Arial, sans-serif;
   font-weight: normal;
   font-size: 18px;
   line-height: 163%;
-  padding-bottom: 27px;
+  
+}
+
+.places__paragraph:nth-child(2) {
+  padding-top: 27px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__paragraph {
+    width: 456px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .places__paragraph {
+    width: 352px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__paragraph {
+    width: 288px;
+    
+  }
 }

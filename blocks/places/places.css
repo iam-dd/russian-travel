@@ -1,3 +1,35 @@
 .places {
   width: 100%;
+  display: grid;
+  grid-template: repeat(5, auto) / 11.5% auto 11.5%;
+  row-gap: 80px;
+  padding-bottom: 92px;
+}
+
+@media screen and (max-width: 1030px) {
+  .content_places {
+    grid-template: repeat(5, auto) / 3.75% auto 3.75%;
+
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .content_places {
+    grid-template: repeat(5, auto) / 3.75% auto 3.75%;
+    row-gap: 73px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content_places {
+    grid-template: repeat(5, auto) / auto;
+    row-gap: 73px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content_places {
+    grid-template: repeat(5, auto) / auto;
+    row-gap: 50px;
+  }
 }

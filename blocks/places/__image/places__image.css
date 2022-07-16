@@ -3,3 +3,11 @@
   grid-row: 2;
   width: 100%;
 }
+
+@media screen and (max-width: 320px) {
+.places__image {
+  grid-column: 1;
+  grid-row: 3;
+  width: 100%;
+}
+}

@@ -1,7 +1,4 @@
 .lead__content {
-  margin: 0 148px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  box-sizing: border-box;
+  padding: 0 0 92px;
 }

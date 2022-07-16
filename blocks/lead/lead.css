@@ -1,6 +1,5 @@
 .lead {
-  width: 100%;
-  
-
- 
+  display: grid;
+  grid: repeat(4, auto) / auto;
+  justify-content: center;
 }

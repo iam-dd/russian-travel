@@ -1,0 +1,14 @@
+.footer__navigation {
+  display: inline;
+  grid-row: 1;
+  grid-column: 2;
+  place-self: start;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__navigation {
+    grid-column: 1;
+    
+
+  }
+}

@@ -1,7 +1,31 @@
 .places__card {
   margin: 0;
   display: grid;
-  grid-template: auto 460px / 460px auto;
-  gap: 40px 48px;
+  grid-template: auto auto / 460px auto;
+  gap: 48px 40px;
   grid-column: 2;
 }
+
+@media screen and (max-width: 1030px) {
+  .places__card {
+    grid-template: auto auto / 440px auto;
+    gap: 48px 32px;
+   
+  }
+} 
+
+@media screen and (max-width: 990px) {
+  .places__card {
+    grid-template: auto auto / minmax(200px, 340px) auto;
+    gap: 48px 28px;
+   
+  }
+} 
+
+@media screen and (max-width: 320px) {
+  .places__card {
+    grid-template: auto / 320px;
+    row-gap: 32px;
+   
+  }
+} 
