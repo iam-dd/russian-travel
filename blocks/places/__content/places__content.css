@@ -1,8 +1,9 @@
 .places__content {
-  margin: 85px 0 99px;
-  display: grid;
-  grid-template-columns: 148px auto 148px;
-  grid-template-rows: repeat(5, auto);
-  row-gap: 80px;
+  margin: 92px 0;
+}
 
+@media screen and (max-width: 800px) {
+  .places__content {
+    margin: 88px 0 90px 0;
+  }
 }

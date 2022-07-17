@@ -8,6 +8,12 @@
   font-family: 'Inter', Arial, sans-serif;
   font-weight: normal;
   text-align: center;
-  
-  
+}
+
+@media screen and (max-width: 620px) {
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
 }

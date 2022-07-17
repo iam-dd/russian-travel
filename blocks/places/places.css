@@ -1,3 +1,23 @@
 .places {
-  width: 100%;
+  display: grid;
+  grid-template-columns: 148px auto 148px;
+  grid-template-rows: repeat(5, auto);
+  row-gap: 80px;
+}
+
+@media screen and (max-width: 1060px) {
+  .places {
+    grid-template-columns: 48px auto 48px;
+    grid-template-rows: repeat(5, auto);
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .places {
+    grid-template-columns: 24px auto 24px;
+    grid-template-rows: repeat(5, auto);
+    row-gap: 73px;
+
+  }
 }

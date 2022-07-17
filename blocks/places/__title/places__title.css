@@ -8,3 +8,11 @@
   grid-column: 1;
   grid-row: 1;
 }
+
+@media screen and (max-width: 800px) {
+  .places__title {
+    font-size: 42px;
+    line-height: 46px;
+
+  }
+}
