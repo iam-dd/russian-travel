@@ -1,9 +1,5 @@
 .header__content {
   padding: 28px 48px 56px;
+  margin: 0;
 }
 
-@media screen and (max-width: 400px) {
-  .header__content {
-    padding: 16px 16px 48px;
-  }
-}
