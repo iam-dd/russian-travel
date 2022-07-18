@@ -6,3 +6,11 @@
   grid-column: 2;
   grid-row: 1;
 }
+
+@media screen and (max-width: 610px) {
+  .places__list-link {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0 16px;
+  }
+}

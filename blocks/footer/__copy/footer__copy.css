@@ -4,6 +4,13 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
+  margin: 0;
   padding: 0;
   display: block;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copy{
+    line-height: 14px;
+  }
 }

@@ -11,3 +11,12 @@
     max-width: 352px;
   }
 }
+
+@media screen and (max-width: 610px) {
+  .places__block-paragraph {
+    max-width: 288px;
+    grid-column: 1;
+    grid-row: 4;
+    margin: 0 auto;
+  }
+}

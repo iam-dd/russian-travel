@@ -19,3 +19,11 @@
     gap: 48px 28px;
   }
 }
+
+@media screen and (max-width: 615px) {
+  .places__card {
+    grid-template: repeat(4, auto) / 320px;
+    grid-column: 1;
+    gap: 32px 0;
+  }
+}

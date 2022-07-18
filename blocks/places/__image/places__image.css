@@ -4,3 +4,9 @@
   width: 100%;
 }
 
+@media screen and (max-width: 610px) {
+  .places__image {
+    grid-row: 3;
+
+  }
+}
