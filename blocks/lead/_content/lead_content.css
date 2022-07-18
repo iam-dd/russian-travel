@@ -1,15 +1,15 @@
-.lead__content {
+.lead_content {
   margin: 0 11.5%;
 }
 
 @media screen and (max-width: 1030px) {
-  .lead__content {
+  .lead_content {
     margin: 0 3.75%;
   }
 }
 
 @media screen and (max-width: 770px) {
-  .lead__content {
+  .lead_content {
     margin: 0;
   }
 }

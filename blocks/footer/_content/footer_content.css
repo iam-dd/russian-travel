@@ -1,9 +1,9 @@
-.footer__content {
+.footer_content {
   padding: 92px 48px 24px;
 }
 
 @media screen and (max-width: 645px) {
-  .footer__content {
+  .footer_content {
     padding: 64px 16px 24px;
   }
 }
