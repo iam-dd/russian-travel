@@ -4,14 +4,12 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 610px) {
   .footer__navigation-list {
-    min-height: 186px;
     flex-direction: column;
-    justify-content: space-between;
     margin: 0 0 48px 0;
   }
 }

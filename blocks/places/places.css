@@ -1,21 +1,20 @@
 .places {
   display: grid;
   grid-template-columns: 148px auto 148px;
-  grid-template-rows: repeat(5, auto);
+  grid-template-rows: auto;
+  grid-auto-flow: row;
   row-gap: 80px;
 }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1024px) {
   .places {
     grid-template-columns: 48px auto 48px;
-    grid-template-rows: repeat(5, auto);
   }
 }
 
 @media screen and (max-width: 800px) {
   .places {
     grid-template-columns: 24px auto 24px;
-    grid-template-rows: repeat(5, auto);
     row-gap: 73px;
   }
 }
@@ -23,7 +22,6 @@
 @media screen and (max-width: 615px) {
   .places {
     grid-template-columns: auto;
-    grid-template-rows: repeat(5, auto);
     row-gap: 50px;
   }
 }

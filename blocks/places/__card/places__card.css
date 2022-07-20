@@ -1,28 +1,37 @@
 .places__card {
   margin: 0;
   display: grid;
-  grid-template: auto auto / 460px auto;
+  grid-template: auto / 460px auto;
+  grid-auto-flow: row;
   gap: 48px 40px;
   grid-column: 2;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1024px) {
   .places__card {
-    grid-template: auto auto / 440px auto;
+    grid-template: min-content / 440px auto;
     gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 910px) {
   .places__card {
-    grid-template: auto auto / 340px auto;
+    grid-template: min-content / minmax(320px, 340px) auto;
     gap: 48px 28px;
   }
 }
 
 @media screen and (max-width: 615px) {
   .places__card {
-    grid-template: repeat(4, auto) / auto;
+    grid-template: auto / 320px;
+    grid-column: 1;
+    gap: 32px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__card {
+    grid-template: auto / 1fr;
     grid-column: 1;
     gap: 32px 0;
   }
