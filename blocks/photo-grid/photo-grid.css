@@ -1,8 +1,9 @@
 .photo-grid {
   width: 100%;
+  box-sizing: border-box;
   padding: 0 48px 0;
   display: grid;
-  grid-template-columns: repeat(4, 284px);
+  grid-template-columns: repeat(4, auto);
   grid-auto-rows:  213px;
   gap: 16px;
   /* place-items: stretch; */
@@ -11,7 +12,7 @@
 
 @media screen and (max-width: 1050px) {
   .photo-grid {
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, auto);
     grid-auto-rows: 225px;
     gap: 14px;
 
